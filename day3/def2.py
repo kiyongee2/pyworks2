@@ -4,7 +4,7 @@
 def square(x):
     return x * x
 
-print(square(5))
+print(square(6))
 
 # 1이 증가하는 함수
 def one_up(x):
