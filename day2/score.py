@@ -1,25 +1,20 @@
 # 리스트의 연산
 # 합계, 평균, 개수
-"""
-score = [70, 80, 50, 60, 90, 40]
+score = [70, 80, 60, 100, 90]
 count = len(score)
 sum_v = 0
 
 for i in score:
-    #sum_v = sum_v + i
     sum_v += i
-    print("i =", i, "sum_v =", sum_v)
 
-avg = sum_v / count # 평균 = 합계 / 개수
+# 평균 = 합계 / 개수
+avg = sum_v / count
 
-print("개수:", count)
-print("합계:", sum_v)
-print("평균:", avg)
+print(f"평균: {avg}")
 
 # 합계 구하는 내장 함수
-print(sum(score))
+#print(sum(score))
 """
-
 scorelist = [10, 20, 30, 40]
 
 # 요소 추가 (append() 함수 - 맨 뒤에 추가됨)
@@ -36,7 +31,7 @@ print(scorelist)
 
 # 요소 개수(len())
 print(len(scorelist))
-
+"""
 
 
 
